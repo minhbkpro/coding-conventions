@@ -26,7 +26,7 @@ https://ukupat.github.io/tabs-or-spaces/
 
 Làm tương tự như java nhưng indent 2 spaces thay vì 4 spaces.
 
-### $. HTML, CSS, XML
+### 4. HTML, CSS, XML
 
 Cách config giống nhau, dưới đây là mẫu config cho html:
 
