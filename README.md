@@ -1,12 +1,12 @@
 # Coding Conventions
 
-1. Javascript:
+1. Javascript:  
 [JavaScript Style Guide](https://github.com/airbnb/javascript)
 
-2. CSS:
+2. CSS:  
 [CSS / Sass Styleguide](https://github.com/airbnb/css)
 
-3. Ruby:
+3. Ruby:  
 [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
 
 # Config
