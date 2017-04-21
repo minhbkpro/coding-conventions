@@ -28,6 +28,6 @@ Làm tương tự như java nhưng indent 2 spaces thay vì 4 spaces.
 
 ### 4. HTML, CSS, XML
 
-Cách config giống nhau, dưới đây là mẫu config cho html:
+Cách config giống nhau (ngoại trừ css dùng line width 80), dưới đây là mẫu config cho html:
 
 ![config-indent-in-eclipse-html](/images/config-indent-in-eclipse-html.png)
