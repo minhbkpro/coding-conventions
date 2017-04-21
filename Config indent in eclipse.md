@@ -21,3 +21,13 @@ https://ukupat.github.io/tabs-or-spaces/
 
 ###### Step 4
 ![config-indent-in-eclipse-java-4](/images/config-indent-in-eclipse-java-4.png)
+
+### 3. Javascript
+
+Làm tương tự như java nhưng indent 2 spaces thay vì 4 spaces.
+
+### $. HTML, CSS, XML
+
+Cách config giống nhau, dưới đây là mẫu config cho html:
+
+![config-indent-in-eclipse-html](/images/config-indent-in-eclipse-html.png)
