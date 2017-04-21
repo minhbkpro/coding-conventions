@@ -7,7 +7,8 @@
 [CSS / Sass Styleguide](https://github.com/airbnb/css)
 
 3. Ruby:  
-[Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
+- [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
+- [Rails Style Guide](https://github.com/bbatsov/rails-style-guide)
 
 # Config
 
