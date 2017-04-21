@@ -6,7 +6,7 @@ https://ukupat.github.io/tabs-or-spaces/
 
 ### 1. General
 
-![config-indent-in-eclipse](/images/config-indent-in-eclipse-java-1.png)
+![config-indent-in-eclipse](/images/config-indent-in-eclipse.png)
 
 ### 2. Java
 
