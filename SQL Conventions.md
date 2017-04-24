@@ -4,6 +4,9 @@ This conventions base on MySQL.
 
 ## Naming
 
+
+### Table name
+
 ##### ●　Table name SHOULD be lowercase.
 
 Ex: Table name: `users`, `companies`. Column name: `username`, `name`, `start_date`.
@@ -27,6 +30,7 @@ Ex: `role_user`, `setting_user`.
 ##### ●　Relation table name that combine from original table name SHOULD be arranged alphabetically.
 
 Use `role_user`, but not `user_role`.
+
 
 ### Column name
 
