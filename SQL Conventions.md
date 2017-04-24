@@ -55,3 +55,11 @@ Ex: use `buy_date`, but not `bought_date`.
 ##### ●　Column name SHOULD NOT be acronym.
 
 Ex: use `date_number`, but not `date_num`.
+
+##### ●　Date and time column name MAY use folow conventions.
+
+Column for year, month, date onlly may end with `_date`. Ex: `start_date`, `end_date`.
+
+Column for year, month, date, hour, minute, second may end with `_time`. Ex: `start_time`, `end_time`.
+
+Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hour`.
