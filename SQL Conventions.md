@@ -13,6 +13,6 @@ Ex: `aut_` for authen tables, `ts_` for timesheet module tables, `pm_` for proje
 
 Ex: `users`, `roles`, `settings`.
 
-* ##### Relation table name SHOULD be singular.
+##### ●　Relation table name SHOULD be singular.
 
 Ex: `role_user`, `setting_user`.
