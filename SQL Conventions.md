@@ -2,6 +2,13 @@
 
 This conventions base on MySQL.
 
+## Table of contents
+
+1. [Naming](#naming)
+2. [Data types](#data-types)
+3. [Encoding](#encoding)
+4. [Others](#others)
+
 ## Naming
 
 ### Table name
