@@ -71,7 +71,7 @@ Column for year, month, date, hour, minute, second may end with `_time` or `_at`
 
 Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hour`.
 
-[↑ Back to top](#table-of-contents)
+###### [↑ Back to top](#table-of-contents)
 
 ## Data types
 
@@ -82,7 +82,7 @@ Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hou
 ##### ●　If column store string and have max length, we SHOULD use `VARCHAR(M)` type, M SHOULD form as 2^n and value from 1 to 65,535.
 ##### ●　If column store string and don't know max length, we SHOULD use `TEXT` type.
 
-[↑ Back to top](#table-of-contents)
+###### [↑ Back to top](#table-of-contents)
 
 ## Table structure
 
@@ -108,13 +108,13 @@ created_controller | VARCHAR(64) | NOT NULL | | Created controller name, use for
 updated_controller | VARCHAR(64) | | | Updated controller name
 is_deleted | TINYINT(1) | NOT NULL | 0 | Use for soft delete
 
-[↑ Back to top](#table-of-contents)
+###### [↑ Back to top](#table-of-contents)
 
 ## Encoding
 
 ##### ●　SHOULD use `utf8mb4_unicode_ci` or `utf8_unicode_ci` for end coding.
 
-[↑ Back to top](#table-of-contents)
+###### [↑ Back to top](#table-of-contents)
 
 ## Others
 
@@ -128,4 +128,4 @@ gender | | 1: male, -1: female, 0 : other
 total | | Total of money
 start_time | | YYYY-MM-DD HH:MM:SS
 
-[↑ Back to top](#table-of-contents)
+###### [↑ Back to top](#table-of-contents)
