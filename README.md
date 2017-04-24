@@ -8,6 +8,8 @@
 
 4. Rails: [bbatsov/rails-style-guide](https://github.com/bbatsov/rails-style-guide)
 
+5. SQL: [SQL Conventions](https://github.com/minhbkpro/coding-conventions/blob/master/SQL%20Conventions.md)
+
 # Config
 
 1. [Config indent and line width in eclipse](https://github.com/minhbkpro/coding-conventions/blob/master/Config%20indent%20and%20line%20width%20in%20eclipse.md)
