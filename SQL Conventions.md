@@ -63,3 +63,12 @@ Column for year, month, date onlly may end with `_date`. Ex: `start_date`, `end_
 Column for year, month, date, hour, minute, second may end with `_time`. Ex: `start_time`, `end_time`.
 
 Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hour`.
+
+## Data types
+
+##### ●　SHOULD use `DATETIME` over `TIMESTAMP`.
+##### ●　MAY use `TINYINT(1)` for boolean.
+##### ●　SHOULD use `UNSIGNED` and `BIGINT` for `AUTO INCREMENT` primary key.
+##### ●　If column store fixed length string, we SHOULD use `CHAR(M)` type, M from 1 to 255.
+##### ●　If column store string and have max length, we SHOULD use `VARCHAR(M)` type, M SHOULD form as 2^n and value from 1 to 65,535.
+##### ●　If column store string and don't know max length, we SHOULD use `TEXT` type.
