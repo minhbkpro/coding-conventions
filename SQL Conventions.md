@@ -6,6 +6,12 @@ This conventions base on MySQL.
 
 ### Table name
 
+1. Test 1
+
+* Test 2
+
+- Test 3
+
 ##### ●　Table name SHOULD be lowercase.
 
 Ex: Table name: `users`, `companies`. Column name: `username`, `name`, `start_date`.
