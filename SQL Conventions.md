@@ -1,6 +1,6 @@
 # 1. Naming
 
-### 1.1 Prefix
+## 1.1 Prefix
 
 ##### 1.1.1 SHOULD use table prefix when have many modules or plugins.
 
