@@ -60,7 +60,7 @@ Ex: use `date_number`, but not `date_num`.
 
 Column for year, month, date onlly may end with `_date`. Ex: `start_date`, `end_date`.
 
-Column for year, month, date, hour, minute, second may end with `_time`. Ex: `start_time`, `end_time`.
+Column for year, month, date, hour, minute, second may end with `_time` or `_at`. Ex: `start_time`, `end_time`, `start_at`, `end_at`.
 
 Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hour`.
 
@@ -72,3 +72,27 @@ Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hou
 ##### ●　If column store fixed length string, we SHOULD use `CHAR(M)` type, M from 1 to 255.
 ##### ●　If column store string and have max length, we SHOULD use `VARCHAR(M)` type, M SHOULD form as 2^n and value from 1 to 65,535.
 ##### ●　If column store string and don't know max length, we SHOULD use `TEXT` type.
+
+## Table structure
+
+##### ●　Table SHOULD have following structure.
+
+Columns | Examples
+------- | --------
+Primary key | `id`
+Foreign keys | `user_id`, `company_id`
+Information columns | `name`, `description`, `address`
+Boolean columns | `is_show`, `is_done`, `is_checking`
+Featured columns | `created_at`, `updated_at`, `created_by`, `updated_by`
+
+##### ●　Featured columns MAY have following columns.
+
+Column name | type | Nullable | Default value | Comment
+----------- | ---- | -------- | ------------- | -------
+created_at | DATETIME | NOT NULL | CURRENT_TIMESTAMP | Date and time created
+updated_at | DATETIME | NOT NULL | CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP | Date and time updated
+created_by | BIGINT(20) | NOT NULL | | Created user
+updated_by | BIGINT(20) | | | Updated user
+created_controller | VARCHAR(64) | NOT NULL | | Created controller name, use for track data
+updated_controller | VARCHAR(64) | | | Updated controller name
+is_deleted | TINYINT(1) | NOT NULL | 0 | Use for soft delete
