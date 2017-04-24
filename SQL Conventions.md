@@ -2,7 +2,7 @@
 
 This conventions base on MySQL.
 
-## Naming  
+# Naming
 
 ### Table name
 
