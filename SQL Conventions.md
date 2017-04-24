@@ -30,7 +30,6 @@ Ex: `role_user`, `setting_user`.
 
 Use `role_user`, but not `user_role`.
 
-
 ### Column name
 
 ##### ●　MUST NOT use prefix for column name.
