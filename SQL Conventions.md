@@ -1,6 +1,3 @@
-# Naming
+## 1. Naming
 
-### Prefix
-
-###### * May use prefix on table
-###### * May not use
+#### 1.1 Prefix
