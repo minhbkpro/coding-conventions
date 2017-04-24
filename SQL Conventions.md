@@ -96,3 +96,19 @@ updated_by | BIGINT(20) | | | Updated user
 created_controller | VARCHAR(64) | NOT NULL | | Created controller name, use for track data
 updated_controller | VARCHAR(64) | | | Updated controller name
 is_deleted | TINYINT(1) | NOT NULL | 0 | Use for soft delete
+
+## Encoding
+
+##### ●　SHOULD use `utf8mb4_unicode_ci` or `utf8_unicode_ci` for end coding.
+
+## Others
+
+##### ●　SHOULD have comment for meaning of column.
+
+Ex:
+
+Column name | other attributes | Comment
+----------- | ---------------- | -------
+gender | | 1: male, -1: female, 0 : other
+total | | Total of money
+start_time | | YYYY-MM-DD HH:MM:SS
