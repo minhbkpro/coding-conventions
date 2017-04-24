@@ -1,3 +1,7 @@
+# SQL Conventions
+
+This conventions base on MySQL.
+
 ## Naming
 
 ##### ●　SHOULD use table prefix when have many modules or plugins.
