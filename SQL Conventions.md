@@ -35,3 +35,23 @@ Use `role_user`, but not `user_role`.
 ##### ●　MUST NOT use prefix for column name.
 
 Ex: with table `users`, use `name`, `address`, `gender`, but not `user_name`, `user_address`, `user_gender`.
+
+##### ●　Column name SHOULD be lowercase.
+
+Ex: `id`, `description`, `phone`.
+
+##### ●　SHOULD use underscore for multiple words name.
+
+Ex: `mutiple_word_name`.
+
+##### ●　Column name MUST be noun.
+
+Ex: use `start_date`, `end_date`, but not `date_start`, `date_end`.
+
+##### ●　Column name SHOULD be present tense.
+
+Ex: use `buy_date`, but not `bought_date`.
+
+##### ●　Column name SHOULD NOT be acronym.
+
+Ex: use `date_number`, but not `date_num`.
