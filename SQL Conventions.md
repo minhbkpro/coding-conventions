@@ -1,5 +1,5 @@
 ## 1. Naming
 
-#### 1.1 Prefix
+#### 1.1 Should use table prefix when have many modules or plugin.
 
-Test text
+Ex: `aut_` for authen tables, `ts_` for timesheet module tables, `pm_` for project management module tables ..
