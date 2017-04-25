@@ -25,7 +25,7 @@ Ex: `aut_` for authen tables, `ts_` for timesheet module tables, `pm_` for proje
 
 Ex: `users`, `roles`, `settings`.
 
-##### ●　SHOULD use underscore for multiple words name.
+##### ●　SHOULD use underscores for multiple words name.
 
 Ex: `start_date`, `date_of_birth`.
 
@@ -33,7 +33,7 @@ Ex: `start_date`, `date_of_birth`.
 
 Ex: `role_user`, `setting_user`.
 
-##### ●　Relation table name that combine from original table name SHOULD be arranged alphabetically.
+##### ●　Relation table name that combines from original table name SHOULD be arranged alphabetically.
 
 Use `role_user`, but not `user_role`.
 
@@ -47,7 +47,7 @@ Ex: with table `users`, use `name`, `address`, `gender`, but not `user_name`, `u
 
 Ex: `id`, `description`, `phone`.
 
-##### ●　SHOULD use underscore for multiple words name.
+##### ●　SHOULD use underscores for multiple words name.
 
 Ex: `mutiple_word_name`.
 
@@ -63,9 +63,9 @@ Ex: use `buy_date`, but not `bought_date`.
 
 Ex: use `date_number`, but not `date_num`.
 
-##### ●　Date and time column name MAY use folow conventions.
+##### ●　Date and time column name MAY use following conventions.
 
-Column for year, month, date onlly may end with `_date`. Ex: `start_date`, `end_date`.
+Column for year, month, date only may end with `_date`. Ex: `start_date`, `end_date`.
 
 Column for year, month, date, hour, minute, second may end with `_time` or `_at`. Ex: `start_time`, `end_time`, `start_at`, `end_at`.
 
@@ -78,9 +78,9 @@ Column for hour, minute, second may end with `_hour`. Ex: `start_hour`, `end_hou
 ##### ●　SHOULD use `DATETIME` over `TIMESTAMP`.
 ##### ●　MAY use `TINYINT(1)` for boolean.
 ##### ●　SHOULD use `UNSIGNED` and `BIGINT` for `AUTO INCREMENT` primary key.
-##### ●　If column store fixed length string, we SHOULD use `CHAR(M)` type, M from 1 to 255.
-##### ●　If column store string and have max length, we SHOULD use `VARCHAR(M)` type, M SHOULD form as 2^n and value from 1 to 65,535.
-##### ●　If column store string and don't know max length, we SHOULD use `TEXT` type.
+##### ●　If column stores fixed length string, we SHOULD use `CHAR(M)` type, M from 1 to 255.
+##### ●　If column stores string and have max length, we SHOULD use `VARCHAR(M)` type, M SHOULD form as 2^n and value from 1 to 65,535.
+##### ●　If column stores string and don't know max length, we SHOULD use `TEXT` type.
 
 [↑ Back to top](#table-of-contents)
 
