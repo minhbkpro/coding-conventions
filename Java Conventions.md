@@ -50,3 +50,5 @@ The package statement is not line-wrapped. The column limit does not apply to pa
     import java.awt.Panel;
     import java.awt.Graphics;
     ```
+
+##### ●　Class declaration
