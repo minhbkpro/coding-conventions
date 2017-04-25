@@ -39,7 +39,9 @@ The package statement is not line-wrapped. The column limit does not apply to pa
 ##### ●　Import statements
 
 1. Wildcard imports, static or otherwise, are not used.
+
 1. Import statements are not line-wrapped. The column limit does not apply to import statements.
+
     ```
     // bad
     import java.awt.*;
