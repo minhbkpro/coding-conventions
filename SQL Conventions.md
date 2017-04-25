@@ -122,10 +122,10 @@ is_deleted | TINYINT(1) | NOT NULL | 0 | Use for soft delete
 
 Ex:
 
-Column name | other attributes | Comment
------------ | ---------------- | -------
-gender | | 1: male, -1: female, 0 : other
-total | | Total of money
-start_time | | YYYY-MM-DD HH:MM:SS
+Column name | Comment
+----------- | -------
+gender | 1: male, -1: female, 0 : other
+total | Total of money
+start_time | YYYY-MM-DD HH:MM:SS
 
 [↑ Back to top](#table-of-contents)
