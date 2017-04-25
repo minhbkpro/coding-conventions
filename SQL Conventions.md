@@ -5,9 +5,9 @@ This conventions base on MySQL.
 ## Table of contents
 
 1. [Naming](#naming)
-2. [Data types](#data-types)
-3. [Encoding](#encoding)
-4. [Others](#others)
+1. [Data types](#data-types)
+1. [Encoding](#encoding)
+1. [Others](#others)
 
 ## Naming
 
