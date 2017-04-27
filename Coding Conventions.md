@@ -7,9 +7,14 @@ It's better for unit test and maintain.
 Verb | URI | Action | Comments
 ---- | --- | ------ | --------
 GET | /users | index | Display all users
+|||
 GET | /users/new | new | Display create user form
 POST | /users | create | Create a new user
+|||
 GET | /users/{id} | show | Display a specific user
+|||
 GET | /users/{id}/edit | edit | Display edit user form
 PUT/PATCH | /users/{id} | update | Update a specific user
+|||
+GET | /users/{id}/delete | delete | Display delete user form for confirm
 DELETE | /users/{id} | destroy | Delete a specific user
