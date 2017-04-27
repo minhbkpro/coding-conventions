@@ -4,8 +4,8 @@ It's better for unit test and maintain.
 
 ##### ●　Resources actions SHOULD name as following.
 
-Method | URI | Action name | View file name | Comments
------- | --- | ----------- | -------------- | --------
+Method | URI | Action name | View name | Comments
+------ | --- | ----------- |---------- | --------
 GET | /users | index | index | Display all users
 GET | /users/create | create | create | Display create user form
 POST | /users | store | | Create a new user
