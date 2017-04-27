@@ -2,7 +2,7 @@
 
 1. SQL: [SQL Conventions](https://github.com/minhbkpro/coding-conventions/blob/master/SQL%20Conventions.md)
 
-# Coding Conventions
+# Other Conventions
 
 1. HTML: [google/HTML and CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
