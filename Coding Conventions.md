@@ -12,5 +12,5 @@ POST | /users | store | | Create a new user
 GET | /users/{id} | show | show | Display a specific user
 GET | /users/{id}/edit | edit | edit | Display edit user form
 PUT/PATCH | /users/{id} | update | | Update a specific user
-GET | /users/{id}/delete | delete | delete | Display delete user confirm informations
+GET | /users/{id}/delete | delete | delete | Display delete user confirm informations (use this action if need confirm screen)
 DELETE | /users/{id} | destroy | | Delete a specific user
